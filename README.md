@@ -4,18 +4,18 @@ For moments when you wish time ran backwards...
 
 A convenient alternative to the rm command for UNIX systems with a built-in undelete interface.
 
-## Did you write this after accidentally deleting something important?
+### Did you write this after accidentally deleting something important?
 
 Yes.
 
-## Requirements
+### Requirements
 
 You will need to verify Python 3 is installed on your computer, along with the following packages:
 * os
 * sys
 * subprocess
 
-## Installation
+### Installation
 
 These steps are intended for a Linux user running Bash. This script should run correctly on all UNIX systems, but the 'installation' may vary for each.
 
@@ -29,7 +29,7 @@ alias rm='python3 path_to_script'
 
 Alternatively, you may choose to alias this script to another command if you want to retain use of the rm command.
 
-## Usage
+### Usage
 
 This script automatically generates a .recycling_bin folder in the home directory specified in the settings along with a index file. You can delete files or directories (but not both at once) in the same way as you would with the rm command. Note that no flags are necessary.
 
@@ -58,10 +58,10 @@ Place an asterisk in front of any files or folders you want to restore.
 trash5/               |  /home/lcapaldi/files/scripts_personal/trash5/
 ```
 
-## Contributing
+### Contributing
 
 Feel free to modify, improve, or extend this script for personal use. If you want to contribute, please follow PEP8 guidelines and adhere to the programming style already present.
 
-## License
+### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.

@@ -2,7 +2,7 @@
 
 For moments when you wish time ran backwards...
 
-A convenient alternative to the rm command for UNIX systems with a built-in undelete interface.
+A convenient alternative to the rm command, with a built-in undelete interface, for UNIX systems.
 
 ### Did you write this after accidentally deleting something important?
 
